@@ -6,7 +6,7 @@ public class TestVerifyDate {
         System.assertEquals(Date.valueOf('2023-06-28'),dt);//this is print statement
     }
     @isTest
-    public static void otherthen30Days(){
+    public static void otherthen30Days(){//adding method in test class
         Date dt = VerifyDate.CheckDates(Date.valueOf('2023-05-20'),Date.valueOf('2023-06-25'));
         System.assertEquals(Date.valueOf('2023-05-31'),dt);
     }
