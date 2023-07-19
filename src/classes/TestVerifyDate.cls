@@ -3,7 +3,6 @@ public class TestVerifyDate {
     @isTest
     public static void Within30Days(){//this is method statement 1
         Date dt= VerifyDate.CheckDates(Date.valueOf('2023-06-17'),Date.valueOf('2023-06-28'));
-        System.assertEquals(Date.valueOf('2023-06-28'),dt);
         System.assertEquals(Date.valueOf('2023-06-26'),dt);
     }
     @isTest
