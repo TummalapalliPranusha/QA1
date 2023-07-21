@@ -9,6 +9,8 @@ public class TestVerifyDate {
     public static void otherthen30Days(){//method
         Date dt = VerifyDate.CheckDates(Date.valueOf('2023-05-20'),Date.valueOf('2023-06-25'));
         System.assertEquals(Date.valueOf('2023-05-31'),dt);
+        System.assertEquals(Date.valueOf('2024-06-28'),dt);
+
     }
 
 }
